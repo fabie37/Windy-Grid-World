@@ -11,3 +11,14 @@ RL Algorithm:
 - Policy: fixed e-greedy
 - SARSA: On-policy Tabluar TD
 
+Requirements:
+- pygame
+- numpy
+
+windy_gridworld.py:
+- Base Implementation
+- Gives the output of avg steps per episode
+
+visualiser.py:
+- Gives you a pygame visualiser of the algorithm
+- It'll run the algorithm, learn the optimal policy then a continue button will be presented, once clicking, the greedy policy will be simulated
